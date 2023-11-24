@@ -1,7 +1,7 @@
 export default function Header() {
   return (
-    <nav className="flex justify-between bg-gray-200 p-4">
-      <h1>Company Profile</h1>
+    <nav className="flex justify-between bg-dark p-4">
+      <h1 className="font-semibold">DD BYGG</h1>
       <ul className="flex gap-8">
         <li>
           <a href="">Home</a>
