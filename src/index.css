@@ -178,8 +178,8 @@
   }
 }
 
-* {
-  @apply border-light;
+.container {
+  @apply border-light border-x;
 }
 
 body {
