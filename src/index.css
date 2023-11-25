@@ -178,10 +178,6 @@
   }
 }
 
-.container {
-  @apply border-light border-x;
-}
-
 body {
-  @apply bg-dark text-light font-helvetica;
+  @apply bg-light text-dark font-helvetica;
 }

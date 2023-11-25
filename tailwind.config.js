@@ -2,17 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    colors: {
-      light: "#d2d2d2",
-      dark: "#282829",
-      yellow: "#f5d010",
-    },
     fontFamily: {
       helvetica: ["Helvetica Now Display", "sans"],
     },
     extend: {
-      container: {
-        center: true,
+      colors: {
+        light: "#ffffff",
+        sand: "#f4f5ef",
+        ultraDark: "#000000",
+        dark: "#150c0f",
+        mediumDark: "#201317",
+        red: "#ff2803",
+        blue: "#1795f0",
+        green: "#30e462",
+        yellow: "#f5d010",
       },
     },
   },

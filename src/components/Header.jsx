@@ -1,10 +1,11 @@
+import LogoHeader from "./LogoHeader";
 import MenuButton from "./MenuButton";
 
 export default function Header() {
   return (
-    <nav className="flex justify-between items-center bg-dark p-4">
-      <h1 className="font-semibold text-3xl">DD BYGG</h1>
-      <ul className="flex gap-8">
+    <nav className="flex w-full justify-between items-center bg-light py-4 px-6">
+      <LogoHeader />
+      <ul className="gap-8 hidden">
         <li>
           <a href="">Home</a>
         </li>
