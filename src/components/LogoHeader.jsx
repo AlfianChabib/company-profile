@@ -40,8 +40,8 @@ export default function LogoHeader() {
         }  `}
       >
         <div className="flex whitespace-nowrap font-semibold leading-8 text-lg text-light gap-1 w-full relative overflow-hidden">
-          <h1 ref={firstText}>Digital Marketing Growth Partners -</h1>
-          <h1 ref={secondText}>Digital Marketing Growth Partners -</h1>
+          <h1 ref={firstText}>Digital Marketing Growth Partners ★</h1>
+          <h1 ref={secondText}>Digital Marketing Growth Partners ★</h1>
         </div>
       </div>
     </div>

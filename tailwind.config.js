@@ -17,6 +17,9 @@ export default {
         green: "#30e462",
         yellow: "#f5d010",
       },
+      height: {
+        nav: "60px",
+      },
     },
   },
   plugins: [],
