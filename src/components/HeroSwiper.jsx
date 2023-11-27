@@ -10,7 +10,6 @@ export default function HeroSwiper() {
   return (
     <Swiper
       className="w-full mySwiper"
-      // spaceBetween={20}
       slidesPerView={1}
       modules={[Autoplay]}
       autoplay={{

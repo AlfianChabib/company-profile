@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section>
       <Header />
-      <main className="flex relative w-full justify-center">
+      <main id="home" className="flex relative w-full justify-center">
         {/* swiper */}
         <div className="flex justify-center absolute w-full h-full -z-0">
           <HeroSwiper />
@@ -23,7 +23,9 @@ export default function Home() {
             kami, yang memiliki pengalaman lebuh dari sepulauh tahun dibidang
             pengembangan perangkat digital
           </p>
-          <Button text="Get Started" width="160" height="40" />
+          <a href="#about" className="flex">
+            <Button text="Get Started" width="160" height="40" theme="light" />
+          </a>
         </div>
         <div className="flex w-1/3">
           <div className="w-full"></div>
